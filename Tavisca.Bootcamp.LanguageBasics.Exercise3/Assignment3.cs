@@ -63,9 +63,9 @@ namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
                     {
                         candidate.Add(j);
                     }
-                    foreach(char ch in diet_plan)
+                    foreach(char c in diet_plan)
                     {
-                        switch(ch)
+                        switch(c)
                         {
                             case 'P':   candidate = updatedCandidate(protein, candidate, 1);
                                         break;
@@ -99,7 +99,7 @@ namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
             {
                 if(flag == 1)
                 {
-                    for(int i =1;i<c_index.Count;i++)
+                    for(int i =1;i<index.Count;i++)
                         if(element<nutrients[index[i]]) element = nutrients[index[i]];                          
                 }
                 else
